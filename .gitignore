@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Package files
+package.json
+package-lock.json
+
+# Prettier
+.prettierignore
+.prettierrc
+

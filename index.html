@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Меню</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="header__nav-list">
+          <li class="header__nav-item header__nav-item--icon">
+            <a href="/" title="Главная">
+              <svg width="24" height="24" class="header__nav-icon">
+                <use href="./sprite.svg#home"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header__nav-item header__nav-item--services">
+            <button class="header__nav-element header__nav-element--button">
+              Услуги
+              <svg width="12" height="12" class="header__nav-icon">
+                <use href="./sprite.svg#arrow"></use>
+              </svg>
+            </button>
+            <div class="header__nav-dropdown">
+              <ul class="header__nav-dropdown-list">
+                <li>
+                  <a href="#" class="header__nav-dropdown-link">Создание сайтов</a>
+                </li>
+                <li>
+                  <a href="#" class="header__nav-dropdown-link">Редизайн сайтов</a>
+                </li>
+                <li>
+                  <a href="#" class="header__nav-dropdown-link">Продвижение сайтов</a>
+                </li>
+                <li>
+                  <a href="#" class="header__nav-dropdown-link">Поддержка сайтов</a>
+                </li>
+                <li>
+                  <a href="#" class="header__nav-dropdown-link">Контекстная реклама</a>
+                </li>
+                <li>
+                  <a href="#" class="header__nav-dropdown-link">Аудит</a>
+                </li>
+              </ul>
+              <img src="./public/img/figure-1.webp" width="100px" height="100px" alt="" />
+            </div>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-element header__nav-element--link" href="#">Проекты</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-element header__nav-element--link" href="#">Блог</a>
+          </li>
+          <li class="header__nav-item">
+            <button
+              class="header__nav-element header__nav-element--button header__nav-element--message"
+            >
+              Заявка
+              <svg width="20" height="20" class="header__nav-icon">
+                <use href="./sprite.svg#message"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

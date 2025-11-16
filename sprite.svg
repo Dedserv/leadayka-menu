@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="home" viewBox="0 0 24 24">
+    <path
+      stroke="#fff"
+      fill="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+      d="m9.02 2.83821-5.39 4.2c-.9.7-1.63 2.19-1.63 3.31999v7.41c0 2.32 1.89 4.22 4.21 4.22h11.58c2.32 0 4.21-1.9 4.21-4.21v-7.28c0-1.20999-.81-2.75999-1.8-3.44999l-6.18-4.33c-1.4-.98-3.65-.93-5 .12" />
+  </symbol>
+
+  <symbol id="message" viewBox="0 0 20 20" fill="none">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M7.08317 15.8346H6.6665c-3.33333 0-5-.8333-5-5V6.66797q0-5 5-5h6.6667c3.3333 0 5 1.66667 5 5v4.16663c0 3.3334-1.6667 5-5 5h-.4167c-.2583 0-.5083.125-.6667.3334l-1.25 1.6666c-.55.7334-1.44996.7334-1.99996 0l-1.25-1.6666c-.13334-.1834-.44167-.3334-.66667-.3334"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.3286 9.16667h.0075M9.99559 9.16667h.00751M6.66209 9.16667h.00748"/>
+  </symbol>
+
+  <symbol id="arrow" fill="none" viewBox="0 0 12 12">
+    <path stroke="#f2f2f8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="m9.95906 4.47656-3.26 3.26c-.385.385-1.015.385-1.4 0l-3.26-3.26"/>
+  </symbol>
+</svg>
+
+
+
