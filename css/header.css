@@ -48,16 +48,6 @@
 }
 
 .header__nav-item--services {
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 20px;
-    z-index: 1;
-  }
-
   &:hover {
     .header__nav-dropdown {
       max-height: 500px;
@@ -76,6 +66,20 @@
   color: #fff;
   font-size: 16px;
   line-height: 1.3;
+}
+
+.header__nav-element--services {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    z-index: 1;
+  }
 }
 
 .header__nav-element--link {
